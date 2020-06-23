@@ -1,0 +1,98 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                &&JSONINCLUDELIST&&
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+            ],
+            "browse": {
+                "path": [
+                    &&JSONINCLUDELIST&&
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                &&JSONDEFINELIST&&
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "&&CY_GCC_DIRECTORY&&/bin/arm-none-eabi-gcc.exe &&CY_C_FLAGS&&",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        },
+        {
+            "name": "macOS",
+            "includePath": [
+                &&JSONINCLUDELIST&&
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+            ],
+            "browse": {
+                "path": [
+                    &&JSONINCLUDELIST&&
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                &&JSONDEFINELIST&&
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "&&CY_GCC_DIRECTORY&&/bin/arm-none-eabi-gcc &&CY_C_FLAGS&&",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                &&JSONINCLUDELIST&&
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+            ],
+            "browse": {
+                "path": [
+                    &&JSONINCLUDELIST&&
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include",
+                    "&&CY_GCC_DIRECTORY&&/lib/gcc/arm-none-eabi/&&CY_GCC_VERSION&&/include-fixed",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&",
+                    "&&CY_GCC_DIRECTORY&&/arm-none-eabi/include/c++/&&CY_GCC_VERSION&&/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                &&JSONDEFINELIST&&
+                "__GNUC__"
+            ],
+            "intelliSenseMode": "${default}",
+            "compilerPath": "&&CY_GCC_DIRECTORY&&/bin/arm-none-eabi-gcc &&CY_C_FLAGS&&",
+            "cStandard": "c99",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
